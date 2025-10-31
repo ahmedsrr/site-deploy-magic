@@ -29,7 +29,7 @@ const Footer = () => {
         <p>Paiements : Wave - Orange Money - Virement Bancaire - Carte Visa</p>
       </div>
       <div className="map">
-        <iframe src="https://maps.app.goo.gl/dhbQfXqdZMRVoVcf8?g_st=ac" width="100%" height="250" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://maps.app.goo.gl/fLADVGDUdhbEGW4X9" width="100%" height="250" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </footer>
   );
