@@ -30,7 +30,7 @@ const Footer = () => {
       </div>
       <div className="map">
         <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.9762043935577!2d-17.47080908522658!3d14.745544989696886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec10cd7c2c6e2c7%3A0x8e8e8e8e8e8e8e8e!2sDakar%2C%20Senegal!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.0!2d-17.4473!3d14.7451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTTCsDQ0JzQyLjQiTiAxN8KwMjYnNTAuMyJX!5e0!3m2!1sfr!2ssn!4v1234567890!5m2!1sfr!2ssn"
           width="100%" 
           height="250" 
           style={{ border: 0 }} 
