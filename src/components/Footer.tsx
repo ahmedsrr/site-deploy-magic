@@ -22,8 +22,8 @@ const Footer = () => {
         <p>Téléphone : +221 78 175 03 32</p>
         <p>WhatsApp : +221 70 937 83 24</p>
         <div className="social-icons">
-          <a href="#">FB</a>
-          <a href="#">IG</a>
+          <a href="https://www.facebook.com/share/1B6HAcnsG1/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">FB</a>
+          <a href="https://www.instagram.com/thioubene.multishop?igsh=dzdqbzMyMnc1YWE%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">IG</a>
           <a href="#">LN</a>
         </div>
         <p>Paiements : Wave - Orange Money - Virement Bancaire - Carte Visa</p>
