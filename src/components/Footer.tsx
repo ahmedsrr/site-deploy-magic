@@ -19,8 +19,8 @@ const Footer = () => {
       <div className="footer-right">
         <img src="/images/logo.png" alt="Logo" />
         <p>Adresse : Dakar, Sénégal</p>
-        <p>Téléphone : +221 77 000 00 00</p>
-        <p>WhatsApp : +221 77 000 00 00</p>
+        <p>Téléphone : +221 78 175 03 32</p>
+        <p>WhatsApp : +221 70 937 83 24</p>
         <div className="social-icons">
           <a href="#">FB</a>
           <a href="#">IG</a>
