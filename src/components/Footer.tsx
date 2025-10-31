@@ -29,7 +29,15 @@ const Footer = () => {
         <p>Paiements : Wave - Orange Money - Virement Bancaire - Carte Visa</p>
       </div>
       <div className="map">
-        <iframe src="https://maps.app.goo.gl/fLADVGDUdhbEGW4X9" width="100%" height="250" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.9762043935577!2d-17.47080908522658!3d14.745544989696886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec10cd7c2c6e2c7%3A0x8e8e8e8e8e8e8e8e!2sDakar%2C%20Senegal!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" 
+          width="100%" 
+          height="250" 
+          style={{ border: 0 }} 
+          allowFullScreen 
+          loading="lazy" 
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
     </footer>
   );
