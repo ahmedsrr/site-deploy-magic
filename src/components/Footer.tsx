@@ -30,7 +30,8 @@ const Footer = () => {
       </div>
       <div className="map">
         <iframe 
-          src="https://www.google.com/maps/place/Touba/data=!4m6!3m5!1s0xeea499b306ae7a1:0x15f959229a5ef021!7e2!8m2!3d14.881984899999999!4d-15.8883171?utm_source=mstt_1&entry=gps"
+          title="Carte localisation - Touba"
+          src="https://maps.google.com/maps?q=14.8819849,-15.8883171&z=17&output=embed"
           width="300" 
           height="200" 
           style={{ border: 0 }} 
