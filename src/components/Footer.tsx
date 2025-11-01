@@ -31,8 +31,8 @@ const Footer = () => {
       <div className="map">
         <iframe 
           src="https://maps.app.goo.gl/qHd3yh32QU1N8fe29"
-          width="600" 
-          height="450" 
+          width="300" 
+          height="250" 
           style={{ border: 0 }} 
           allowFullScreen 
           loading="lazy" 
