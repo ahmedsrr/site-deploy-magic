@@ -30,7 +30,7 @@ const Footer = () => {
       </div>
       <div className="map">
         <iframe 
-          src="https://www.google.com/maps?q=Touba%2C%20S%C3%A9n%C3%A9gal&output=embed"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62778.33!2d-15.8811!3d14.8547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec172b5e15000001%3A0x1daa1fc102a5aff3!2sTouba%2C%20Senegal!5e0!3m2!1sfr!2ssn!4v1234567890!5m2!1sfr!2ssn"
           width="300" 
           height="200" 
           style={{ border: 0 }} 
