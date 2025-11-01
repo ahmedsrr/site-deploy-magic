@@ -30,9 +30,9 @@ const Footer = () => {
       </div>
       <div className="map">
         <iframe 
-          src="https://maps.app.goo.gl/qHd3yh32QU1N8fe29"
+          src="https://www.google.com/maps?q=Touba%2C%20S%C3%A9n%C3%A9gal%20Ndiaye%20Narr%20Pneu&output=embed"
           width="300" 
-          height="250" 
+          height="200" 
           style={{ border: 0 }} 
           allowFullScreen 
           loading="lazy" 
