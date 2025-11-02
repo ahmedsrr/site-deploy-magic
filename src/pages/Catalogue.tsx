@@ -29,6 +29,18 @@ const Catalogue = () => {
             <img src="/images/amortisseur.jpg" alt="Amortisseurs"/>
             <p>Amortisseurs</p>
           </div>
+          <div className="product-card">
+            <img src="/images/filtres.jpg" alt="Filtres"/>
+            <p>Filtres</p>
+          </div>
+          <div className="product-card">
+            <img src="/images/parechocs.jpg" alt="Pare-chocs"/>
+            <p>Pare-chocs</p>
+          </div>
+          <div className="product-card">
+            <img src="/images/jantes.jpg" alt="Jantes"/>
+            <p>Jantes</p>
+          </div>
         </div>
       </section>
 
