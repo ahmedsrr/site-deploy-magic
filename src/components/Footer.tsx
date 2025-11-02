@@ -27,7 +27,12 @@ const Footer = () => {
           <a href="https://www.instagram.com/thioubene.multishop?igsh=dzdqbzMyMnc1YWE%3D&utm_source=qr" target="_blank" rel="noopener noreferrer"><Instagram size={20} /></a>
           <a href="#"><Linkedin size={20} /></a>
         </div>
-        <p>Paiements : Wave - Orange Money - Virement Bancaire - Carte Visa</p>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
+          <span>Paiements :</span>
+          <img src="/images/wave.png" alt="Wave" style={{ height: '30px' }} />
+          <img src="/images/orange-money.png" alt="Orange Money" style={{ height: '30px' }} />
+          <span>- Virement Bancaire - Carte Visa</span>
+        </div>
       </div>
       <div className="map">
         <iframe 
