@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
+import { Facebook, Instagram, Linkedin } from "lucide-react";
 
 const Header = () => {
   const location = useLocation();
@@ -21,9 +22,9 @@ const Header = () => {
           <input type="text" placeholder="Rechercher..." className="search-bar" />
           <button className="btn-contact">Nous contacter</button>
           <div className="social-icons">
-            <a href="#">FB</a>
-            <a href="#">IG</a>
-            <a href="#">LN</a>
+            <a href="https://www.facebook.com/share/1B6HAcnsG1/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer"><Facebook size={20} /></a>
+            <a href="https://www.instagram.com/thioubene.multishop?igsh=dzdqbzMyMnc1YWE%3D&utm_source=qr" target="_blank" rel="noopener noreferrer"><Instagram size={20} /></a>
+            <a href="#"><Linkedin size={20} /></a>
           </div>
         </div>
       )}
