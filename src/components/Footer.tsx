@@ -29,8 +29,8 @@ const Footer = () => {
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
           <span>Paiements :</span>
-          <img src="/images/wave.png" alt="Wave" style={{ height: '30px' }} />
-          <img src="/images/orange-money.png" alt="Orange Money" style={{ height: '30px' }} />
+          <img src="/images/wave.png" alt="Wave" style={{ height: '40px', width: '40px', objectFit: 'contain' }} />
+          <img src="/images/orange-money.png" alt="Orange Money" style={{ height: '40px', width: '40px', objectFit: 'contain' }} />
           <span>- Virement Bancaire - Carte Visa</span>
         </div>
       </div>
