@@ -19,11 +19,11 @@ const Header = () => {
       <nav>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button variant="outline" size="icon" className="bg-background">
-              <Menu className="h-5 w-5" />
+            <Button variant="outline" size="lg" className="bg-background h-12 w-12">
+              <Menu className="h-7 w-7" />
             </Button>
           </DropdownMenuTrigger>
-          <DropdownMenuContent align="start" className="w-48 bg-background z-50">
+          <DropdownMenuContent align="start" className="w-56 bg-background z-50 text-base">
             <DropdownMenuItem asChild>
               <Link to="/" className={`w-full ${location.pathname === "/" ? "font-semibold text-primary" : ""}`}>
                 Accueil
