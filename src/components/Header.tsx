@@ -1,5 +1,12 @@
 import { Link, useLocation } from "react-router-dom";
-import { Facebook, Instagram, Linkedin } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Menu } from "lucide-react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { Button } from "@/components/ui/button";
 
 const Header = () => {
   const location = useLocation();
@@ -10,12 +17,35 @@ const Header = () => {
         <img src="/images/logo.png" alt="Logo THIOUBENE MULTI SHOP" />
       </div>
       <nav>
-        <ul>
-          <li><Link to="/" className={location.pathname === "/" ? "active" : ""}>Accueil</Link></li>
-          <li><Link to="/about" className={location.pathname === "/about" ? "active" : ""}>À propos</Link></li>
-          <li><Link to="/catalogue" className={location.pathname === "/catalogue" ? "active" : ""}>Catalogue</Link></li>
-          <li><Link to="/contact" className={location.pathname === "/contact" ? "active" : ""}>Contact</Link></li>
-        </ul>
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+            <Button variant="outline" size="icon" className="bg-background">
+              <Menu className="h-5 w-5" />
+            </Button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent align="start" className="w-48 bg-background z-50">
+            <DropdownMenuItem asChild>
+              <Link to="/" className={`w-full ${location.pathname === "/" ? "font-semibold text-primary" : ""}`}>
+                Accueil
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem asChild>
+              <Link to="/about" className={`w-full ${location.pathname === "/about" ? "font-semibold text-primary" : ""}`}>
+                À propos
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem asChild>
+              <Link to="/catalogue" className={`w-full ${location.pathname === "/catalogue" ? "font-semibold text-primary" : ""}`}>
+                Catalogue
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem asChild>
+              <Link to="/contact" className={`w-full ${location.pathname === "/contact" ? "font-semibold text-primary" : ""}`}>
+                Contact
+              </Link>
+            </DropdownMenuItem>
+          </DropdownMenuContent>
+        </DropdownMenu>
       </nav>
       {location.pathname === "/" && (
         <div className="header-right">
