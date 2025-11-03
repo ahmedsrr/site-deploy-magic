@@ -46,6 +46,9 @@ const Footer = () => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
+      <div className="w-full text-center py-4 border-t border-border mt-4">
+        <p className="text-sm text-muted-foreground">© 2025 THIOUBENE MULTI SHOP. Tous droits réservés.</p>
+      </div>
     </footer>
   );
 };
