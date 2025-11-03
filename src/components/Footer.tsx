@@ -19,9 +19,9 @@ const Footer = () => {
       </div>
       <div className="footer-right">
         <img src="/images/logo.png" alt="Logo" />
-        <p>Adresse : Touba, Sénégal (à côté de Ndiaye Narr Pneu)</p>
-        <p>Téléphone : +221 78 175 03 32</p>
-        <p>WhatsApp : +221 70 937 83 24</p>
+        <p>Adresse : Touba, Route de Corniche Bélél, 22300</p>
+        <p>Téléphone : +221 70 937 83 24</p>
+        <p>WhatsApp : +221 78 175 03 32</p>
         <div className="social-icons">
           <a href="https://www.facebook.com/share/1B6HAcnsG1/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer"><Facebook size={20} /></a>
           <a href="https://www.instagram.com/thioubene.multishop?igsh=dzdqbzMyMnc1YWE%3D&utm_source=qr" target="_blank" rel="noopener noreferrer"><Instagram size={20} /></a>
