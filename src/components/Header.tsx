@@ -44,6 +44,11 @@ const Header = () => {
                 Contact
               </Link>
             </DropdownMenuItem>
+            <DropdownMenuItem asChild>
+              <Link to="/support" className={`w-full ${location.pathname === "/support" ? "font-semibold text-primary" : ""}`}>
+                Service d'assistance
+              </Link>
+            </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       </nav>
