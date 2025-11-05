@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="footer-center">
         <ul>
           <li><Link to="/about">Qui sommes-nous</Link></li>
-          <li><a href="#">Service d'assistance</a></li>
+          <li><Link to="/support">Service d'assistance</Link></li>
           <li><a href="#">Politique de confidentialité</a></li>
           <li><a href="#">Conditions générales</a></li>
         </ul>
