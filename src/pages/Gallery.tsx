@@ -17,6 +17,16 @@ const Gallery = () => {
     { src: "/images/cylindre-emetteur.jpg", title: "Cylindre émetteur d'embrayage", category: "Embrayage" },
     { src: "/images/cylindre-recepteur.jpg", title: "Cylindre récepteur d'embrayage", category: "Embrayage" },
     { src: "/images/huile-moteur.jpg", title: "Huile à moteur", category: "Entretien" },
+    { src: "/images/atelier-1.jpg", title: "Notre atelier - Moteurs", category: "Atelier" },
+    { src: "/images/atelier-2.jpg", title: "Notre atelier - Pièces mécaniques", category: "Atelier" },
+    { src: "/images/atelier-3.jpg", title: "Notre atelier - Stock de cardans", category: "Atelier" },
+    { src: "/images/atelier-4.jpg", title: "Notre atelier - Cardans disponibles", category: "Atelier" },
+    { src: "/images/atelier-5.jpg", title: "Notre atelier - Pare-chocs", category: "Atelier" },
+    { src: "/images/atelier-6.jpg", title: "Notre atelier - Pièces diverses", category: "Atelier" },
+    { src: "/images/atelier-7.jpg", title: "Notre atelier - Stock organisé", category: "Atelier" },
+    { src: "/images/atelier-8.jpg", title: "Notre atelier - Vue d'ensemble", category: "Atelier" },
+    { src: "/images/atelier-9.jpg", title: "Notre atelier - Espace de travail", category: "Atelier" },
+    { src: "/images/atelier-10.jpg", title: "Notre atelier - Rayonnage", category: "Atelier" },
   ];
 
   return (
