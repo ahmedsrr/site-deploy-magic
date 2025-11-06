@@ -41,6 +41,26 @@ const Catalogue = () => {
             <img src="/images/jantes.jpg" alt="Jantes"/>
             <p>Jantes</p>
           </div>
+          <div className="product-card">
+            <img src="/images/feux-avant.jpg" alt="Feux avant"/>
+            <p>Feux avant</p>
+          </div>
+          <div className="product-card">
+            <img src="/images/feux-arriere.jpg" alt="Feux arrière"/>
+            <p>Feux arrière</p>
+          </div>
+          <div className="product-card">
+            <img src="/images/cylindre-emetteur.jpg" alt="Cylindre émetteur d'embrayage"/>
+            <p>Cylindre émetteur d'embrayage</p>
+          </div>
+          <div className="product-card">
+            <img src="/images/cylindre-recepteur.jpg" alt="Cylindre récepteur d'embrayage"/>
+            <p>Cylindre récepteur d'embrayage</p>
+          </div>
+          <div className="product-card">
+            <img src="/images/huile-moteur.jpg" alt="Huile à moteur"/>
+            <p>Huile à moteur</p>
+          </div>
         </div>
       </section>
 
