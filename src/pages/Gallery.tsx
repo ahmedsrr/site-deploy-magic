@@ -14,6 +14,11 @@ const Gallery = () => {
     { src: "/images/atelier-8.jpg", title: "Notre atelier - Vue d'ensemble", category: "Atelier" },
     { src: "/images/atelier-9.jpg", title: "Notre atelier - Espace de travail", category: "Atelier" },
     { src: "/images/atelier-10.jpg", title: "Notre atelier - Rayonnage", category: "Atelier" },
+    { src: "/images/atelier-11.jpg", title: "Notre atelier - Radiateurs et pièces", category: "Atelier" },
+    { src: "/images/atelier-12.jpg", title: "Notre atelier - Zone de stockage", category: "Atelier" },
+    { src: "/images/atelier-13.jpg", title: "Notre atelier - Stock suspendu", category: "Atelier" },
+    { src: "/images/atelier-14.jpg", title: "Notre atelier - Étagères complètes", category: "Atelier" },
+    { src: "/images/atelier-15.jpg", title: "Notre atelier - Pare-chocs empilés", category: "Atelier" },
   ];
 
   return (
