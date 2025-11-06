@@ -88,7 +88,7 @@ const Gallery = () => {
             </div>
             <div className="flex items-center gap-2">
               <span className="font-semibold">WhatsApp :</span>
-              <span className="text-primary">+221 78 175 03 32</span>
+              <span className="text-primary">+221 78 122 25 85</span>
             </div>
           </div>
         </section>
