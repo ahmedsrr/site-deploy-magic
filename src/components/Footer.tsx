@@ -14,7 +14,6 @@ const Footer = () => {
           <li><Link to="/about">Qui sommes-nous</Link></li>
           <li><Link to="/support">Service d'assistance</Link></li>
           <li><Link to="/privacy">Politique de confidentialité</Link></li>
-          <li><a href="#">Conditions générales</a></li>
         </ul>
       </div>
       <div className="footer-right">
