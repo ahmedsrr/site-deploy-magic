@@ -12,6 +12,11 @@ const Gallery = () => {
     { src: "/images/cardan.jpg", title: "Cardans", category: "Transmission" },
     { src: "/images/jantes.jpg", title: "Jantes", category: "Esthétique" },
     { src: "/images/parechocs.jpg", title: "Pare-chocs", category: "Carrosserie" },
+    { src: "/images/feux-avant.jpg", title: "Feux avant", category: "Éclairage" },
+    { src: "/images/feux-arriere.jpg", title: "Feux arrière", category: "Éclairage" },
+    { src: "/images/cylindre-emetteur.jpg", title: "Cylindre émetteur d'embrayage", category: "Embrayage" },
+    { src: "/images/cylindre-recepteur.jpg", title: "Cylindre récepteur d'embrayage", category: "Embrayage" },
+    { src: "/images/huile-moteur.jpg", title: "Huile à moteur", category: "Entretien" },
   ];
 
   return (
