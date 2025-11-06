@@ -46,7 +46,7 @@ const Header = () => {
             </DropdownMenuItem>
             <DropdownMenuItem asChild>
               <Link to="/gallery" className={`w-full ${location.pathname === "/gallery" ? "font-semibold text-primary" : ""}`}>
-                Galeries
+                Galerie
               </Link>
             </DropdownMenuItem>
           </DropdownMenuContent>
