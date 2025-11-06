@@ -4,19 +4,6 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Gallery = () => {
   const galleryImages = [
-    { src: "/images/moteur.jpg", title: "Moteurs", category: "Mécanique" },
-    { src: "/images/frein.jpg", title: "Systèmes de freinage", category: "Sécurité" },
-    { src: "/images/amortisseur.jpg", title: "Amortisseurs", category: "Suspension" },
-    { src: "/images/radiateur.jpg", title: "Radiateurs", category: "Refroidissement" },
-    { src: "/images/filtres.jpg", title: "Filtres", category: "Entretien" },
-    { src: "/images/cardan.jpg", title: "Cardans", category: "Transmission" },
-    { src: "/images/jantes.jpg", title: "Jantes", category: "Esthétique" },
-    { src: "/images/parechocs.jpg", title: "Pare-chocs", category: "Carrosserie" },
-    { src: "/images/feux-avant.jpg", title: "Feux avant", category: "Éclairage" },
-    { src: "/images/feux-arriere.jpg", title: "Feux arrière", category: "Éclairage" },
-    { src: "/images/cylindre-emetteur.jpg", title: "Cylindre émetteur d'embrayage", category: "Embrayage" },
-    { src: "/images/cylindre-recepteur.jpg", title: "Cylindre récepteur d'embrayage", category: "Embrayage" },
-    { src: "/images/huile-moteur.jpg", title: "Huile à moteur", category: "Entretien" },
     { src: "/images/atelier-1.jpg", title: "Notre atelier - Moteurs", category: "Atelier" },
     { src: "/images/atelier-2.jpg", title: "Notre atelier - Pièces mécaniques", category: "Atelier" },
     { src: "/images/atelier-3.jpg", title: "Notre atelier - Stock de cardans", category: "Atelier" },
