@@ -22,7 +22,7 @@ const Gallery = () => {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-sky-50">
       <Header />
       <main className="flex-grow container mx-auto px-4 py-12">
         <section className="mb-12">
