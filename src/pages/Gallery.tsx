@@ -27,7 +27,7 @@ const Gallery = () => {
       <main className="flex-grow container mx-auto px-4 py-12">
         <section className="mb-12">
           <h1 className="text-4xl font-bold text-center mb-4 text-foreground">
-            Galeries
+            Galerie
           </h1>
           <p className="text-center text-muted-foreground max-w-2xl mx-auto">
             Découvrez notre large gamme de pièces automobiles de qualité pour tous types de véhicules.
